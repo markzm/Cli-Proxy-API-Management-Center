@@ -23,7 +23,7 @@ jobs:
         id: sync
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
         with:
-          upstream_sync_repo: <原作者用户名>/<原仓库名>
+          upstream_sync_repo: router-for-me/Cli-Proxy-API-Management-Center
           upstream_sync_branch: main # 或 master，根据上游主分支填写
           target_sync_branch: main   # 你的 fork 仓库对应分支
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
